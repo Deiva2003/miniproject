@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: linear-gradient(to right,#314755,#26a0da);
+}
+.navbar{
+    padding: 0 40px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    font-family:'Pacifico', cursive;
+    padding: 0 100px;
+    color: white;
+    font-size: 50px;
+}
+.navbar ul li{
+    font-family: 'Changa', sans-serif;
+    list-style: none;
+    margin:0 25px ;
+    color: white;
+    font-size: 20px;
+    font-weight: 510;
+    padding: 0 10px;
+}
+
+.navbar ul{
+    display: flex;
+    float: right;
+    margin-right: 100px;
+}
+.navbar ul li:hover{
+    margin-bottom:-5px;
+    border-bottom: 2px solid white;
+    color: rgb(65, 245, 236);
+}
+h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: white;
+    padding: 110px 0px 0px 130px;
+}
+h1{
+    color: white;
+    font-size: 110px;
+    font-family: 'Audiowide', cursive;
+    padding: 0px 0px 0px 130px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Damion', cursive;
+    padding: 0px 0px 0px 130px;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background:linear-gradient(right,#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+    margin-left: 130px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: 'Changa', sans-serif; 
+    transition: 0.5s ease;
+    font-size: 15px;
+}
+button:hover{
+    background: linear-gradient( to right,#0cebeb,#20e3b2,#29ffc6);
+    color: white;
+}
